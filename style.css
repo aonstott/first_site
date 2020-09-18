@@ -21,27 +21,8 @@ p {
   color: #FFF;
 }
 
-#homep {
-  text-align: center;
-  margin-left: 500px;
-  margin-right: 500px;
-}
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50px;
-}
-
-#homeimg {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
 .navbar {
+  width: 100%;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -49,11 +30,11 @@ img {
   background-color: #333;
 }
 
-.navbar li {
+.navbar li{
   float: left;
 }
 
-.navbar li a {
+li a {
   display: block;
   color: white;
   text-align: center;
@@ -61,6 +42,28 @@ img {
   text-decoration: none;
 }
 
-.navbar li a:hover {
-  background-color: #111;
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #000;
+}
+
+.homeimg {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+img {
+  margin-bottom: 50px;
+}
+
+ol {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hobbies {
+  display: flex;
+  justify-content: space-around;
 }
